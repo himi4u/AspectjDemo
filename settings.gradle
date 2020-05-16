@@ -1,2 +1,4 @@
 rootProject.name='AspectjDemo'
 include ':app'
+include ':module_main'
+include ':module_lib_common'
