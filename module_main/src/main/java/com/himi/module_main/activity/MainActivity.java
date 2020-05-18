@@ -28,7 +28,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String[] CHANNELS = new String[]{"NOUGAT", "DONUT", "ECLAIR", "KITKAT"};
+    private static final String[] CHANNELS = new String[]{"首页", "视频"};
     private List<String> mDataList = Arrays.asList(CHANNELS);
     private ExamplePagerAdapter mExamplePagerAdapter = new ExamplePagerAdapter(mDataList);
 
@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
                 View customLayout = LayoutInflater.from(context).inflate(R.layout.simple_pager_title_layout, null);
                 final ImageView titleImg = (ImageView) customLayout.findViewById(R.id.title_img);
                 final TextView titleText = (TextView) customLayout.findViewById(R.id.title_text);
-                titleImg.setImageResource(R.mipmap.ic_launcher);
+                titleImg.setImageResource(R.mipmap.ic_demo_launcher);
                 titleText.setText(mDataList.get(index));
                 commonPagerTitleView.setContentView(customLayout);
 

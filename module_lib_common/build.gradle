@@ -10,7 +10,7 @@ android {
         versionName "1.0"
         javaCompileOptions {
             annotationProcessorOptions {
-                arguments = [moduleName: project.getName()]
+                arguments = [AROUTER_MODULE_NAME: project.getName()]
             }
         }
     }
@@ -72,4 +72,8 @@ dependencies {
     api deps.arouter_api
     annotationProcessor deps.arouter_compiler
     api deps.magicindicator
+    api deps.jzplayer
+
+    api deps.glide
+    api deps.transformations
 }

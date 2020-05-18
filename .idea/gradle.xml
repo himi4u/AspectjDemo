@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/module_lib_common" />
             <option value="$PROJECT_DIR$/module_main" />
+            <option value="$PROJECT_DIR$/module_video" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
