@@ -49,6 +49,7 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     annotationProcessor deps.arouter_compiler
     implementation project(path: ':module_lib_common')
 }

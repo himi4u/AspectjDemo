@@ -13,5 +13,5 @@ package com.himi.module_lib_common.arouter;
  * @Version: 1.0
  */
 public interface ARouterConstants {
-
+    String PATH_VIDEO = "/module_video/path/videofragment/";
 }

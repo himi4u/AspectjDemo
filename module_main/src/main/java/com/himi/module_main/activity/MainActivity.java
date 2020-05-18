@@ -13,6 +13,7 @@ import android.widget.TextView;
 
 import com.himi.module_main.R;
 import com.himi.module_main.adapter.ExamplePagerAdapter;
+import com.himi.module_main.adapter.MainAdapter;
 import com.himi.module_main.databinding.ActivityMainBinding;
 
 import net.lucode.hackware.magicindicator.MagicIndicator;
@@ -30,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
 
     private static final String[] CHANNELS = new String[]{"首页", "视频"};
     private List<String> mDataList = Arrays.asList(CHANNELS);
-    private ExamplePagerAdapter mExamplePagerAdapter = new ExamplePagerAdapter(mDataList);
 
     private ViewPager mViewPager;
     private ActivityMainBinding binding;
@@ -44,9 +44,20 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    @Override
+    protected void onStart() {
+        super.onStart();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+    }
+
     private void initView() {
         mViewPager = binding.viewPager;
-        mViewPager.setAdapter(mExamplePagerAdapter);
+        MainAdapter mainAdapter = new MainAdapter(getSupportFragmentManager(), mDataList);
+        mViewPager.setAdapter(mainAdapter);
         initMagicIndicator1();
 
     }

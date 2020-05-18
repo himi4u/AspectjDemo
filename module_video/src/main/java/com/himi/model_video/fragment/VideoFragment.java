@@ -8,10 +8,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.alibaba.android.arouter.facade.annotation.Route;
 import com.bumptech.glide.Glide;
 import com.himi.model_video.R;
 import com.himi.model_video.custom.MyJzvdStd;
 import com.himi.model_video.databinding.FragmentVideoBinding;
+import com.himi.module_lib_common.arouter.ARouterConstants;
 
 /**
  * @ProjectName:
@@ -25,6 +27,7 @@ import com.himi.model_video.databinding.FragmentVideoBinding;
  * @UpdateRemark:
  * @Version: 1.0
  */
+@Route(path = ARouterConstants.PATH_VIDEO)
 public class VideoFragment extends Fragment {
 
     private FragmentVideoBinding videoBinding;
