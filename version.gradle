@@ -27,7 +27,7 @@ deps.arouter_compiler = "com.alibaba:arouter-compiler:1.2.2"
 
 deps.magicindicator = "com.github.hackware1993:MagicIndicator:1.6.0"
 
-//deps.aspectjx = "com.hujiang.aspectjx:gradle-android-plugin-aspectjx:2.0.10"
-//deps.aspectjrt = "org.aspectj:aspectjrt:1.9.5"
+deps.aspectjx = "com.hujiang.aspectjx:gradle-android-plugin-aspectjx:2.0.10"
+deps.aspectjrt = "org.aspectj:aspectjrt:1.9.5"
 ext.deps = deps
 
