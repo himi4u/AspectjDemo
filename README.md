@@ -1,7 +1,7 @@
 # AspectjDemo
 Aspectjx框架在Android组件化项目中配置和部分使用场景
 ## 项目结构
-![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9naXRodWIuY29tL2hpbWk0dS9Bc3BlY3RqRGVtby9ibG9iL21hc3Rlci9waWNzLyVFOSVBMSVCOSVFNyU5QiVBRSVFNyVCQiU5MyVFNiU5RSU4NC5wbmc?x-oss-process=image/format,png)
+![](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9naXRodWIuY29tL2hpbWk0dS9Bc3BlY3RqRGVtby9ibG9iL21hc3Rlci9waWNzLyVFOSVBMSVCOSVFNyU5QiVBRSVFNyVCQiU5MyVFNiU5RSU4NC5wbmc?x-oss-process=image/format.png)
 
 app：项目的“壳工程”，里面基本没代码，主要的作用是管理和组装其它Model组件；
 module_main：业务组件，放置业务代码+配置应用launch Activity、登录页面和主页面等
