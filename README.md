@@ -10,7 +10,7 @@ module_lib_common：库组件，放置Base类，封装的网络框架（目前�
 module_lib_aop：库组件，放置Aspectjx相关代码
 ## 首页
 demo运行起来，首页如下图  
-![](https://github.com/himi4u/AspectjDemo/blob/master/pics/pic2.jpg)\
+![](https://github.com/himi4u/AspectjDemo/blob/master/pics/pic2.png)\
 我们PointCut是首页按钮点击回调里面的方法，我们可以打开日志，当点击Button的时候，日子打印\
 ![](https://github.com/himi4u/AspectjDemo/blob/master/pics/pic3.png)
 以上是最简单的配置和例子，以后会更新在项目中实际使用的例子
