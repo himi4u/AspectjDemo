@@ -2,8 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.himi.module_main">
 
-    <application android:theme="@style/AppTheme">
-        <activity android:name=".activity.MainActivity">
+    <application
+        android:theme="@style/AppTheme">
+        <activity android:name="debug.MainTestActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

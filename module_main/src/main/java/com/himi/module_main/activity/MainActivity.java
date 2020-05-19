@@ -1,8 +1,5 @@
 package com.himi.module_main.activity;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.viewpager.widget.ViewPager;
-
 import android.content.Context;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -11,8 +8,10 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.viewpager.widget.ViewPager;
+
 import com.himi.module_main.R;
-import com.himi.module_main.adapter.ExamplePagerAdapter;
 import com.himi.module_main.adapter.MainAdapter;
 import com.himi.module_main.databinding.ActivityMainBinding;
 
@@ -26,7 +25,19 @@ import net.lucode.hackware.magicindicator.buildins.commonnavigator.titles.Common
 
 import java.util.Arrays;
 import java.util.List;
-
+/**
+*
+* @ProjectName:
+* @Package: com.himi.module_main.activity
+* @ClassName: MainActivity
+* @Description:  mainactivity
+* @Author: 奔跑的土掉渣
+* @CreateDate: 2020/5/19 9:55
+* @UpdateUser:
+* @UpdateDate: 2020/5/19 9:55
+* @UpdateRemark:
+* @Version: 1.0
+*/
 public class MainActivity extends AppCompatActivity {
 
     private static final String[] CHANNELS = new String[]{"首页", "视频"};

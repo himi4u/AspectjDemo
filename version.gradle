@@ -21,17 +21,17 @@ androidx.recyclerview = "androidx.recyclerview:recyclerview:1.2.0-alpha01"
 androidx.support13 = "androidx.legacy:legacy-support-v13:1.0.0"
 androidx.core = "androidx.core:core-ktx:1.1.0"
 deps.androidx = androidx
-
+//arouter
 deps.arouter_api = "com.alibaba:arouter-api:1.5.0"
 deps.arouter_compiler = "com.alibaba:arouter-compiler:1.2.2"
-
+//magicindicator
 deps.magicindicator = "com.github.hackware1993:MagicIndicator:1.6.0"
-
+//aspectjx
 deps.aspectjx = "com.hujiang.aspectjx:gradle-android-plugin-aspectjx:2.0.10"
 deps.aspectjrt = "org.aspectj:aspectjrt:1.9.5"
-
+//饺子播放器
 deps.jzplayer = "cn.jzvd:jiaozivideoplayer:7.3.1"
-
+//glide
 deps.glide = "com.github.bumptech.glide:glide:4.9.0"
 deps.transformations = "jp.wasabeef:glide-transformations:2.0.1"
 ext.deps = deps

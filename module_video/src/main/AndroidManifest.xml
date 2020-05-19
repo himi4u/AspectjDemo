@@ -2,15 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.himi.model_video">
 
-    <application
-        android:theme="@style/AppTheme">
-        <activity android:name=".VideoActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+    <application android:theme="@style/AppTheme">
     </application>
 
 </manifest>

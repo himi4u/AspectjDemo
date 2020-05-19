@@ -1,5 +1,4 @@
 apply plugin: 'com.android.library'
-
 android {
     compileSdkVersion build_versions.target_sdk
 
@@ -76,4 +75,6 @@ dependencies {
 
     api deps.glide
     api deps.transformations
+    api project(path: ':module_lib_aop')
+
 }
