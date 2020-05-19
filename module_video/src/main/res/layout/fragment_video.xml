@@ -5,9 +5,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".fragment.VideoFragment">
-
-    <com.himi.model_video.custom.MyJzvdStd
-        android:id="@+id/my_jz_video"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="200dp" />
+        android:layout_height="200dp">
+        <com.himi.model_video.custom.MyJzvdStd
+            android:id="@+id/my_jz_video"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+    </LinearLayout>
+
 </LinearLayout>

@@ -25,6 +25,9 @@ import net.lucode.hackware.magicindicator.buildins.commonnavigator.titles.Common
 
 import java.util.Arrays;
 import java.util.List;
+
+import cn.jzvd.Jzvd;
+
 /**
 *
 * @ProjectName:
@@ -139,5 +142,11 @@ public class MainActivity extends AppCompatActivity {
         });
         magicIndicator.setNavigator(commonNavigator);
         ViewPagerHelper.bind(magicIndicator, mViewPager);
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Jzvd.releaseAllVideos();
     }
 }

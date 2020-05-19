@@ -25,9 +25,9 @@ android {
 
 
 }
-//aspectjx{
-//    exclude 'androidx','com.google','com.taobao','com.ut'
-//}
+aspectjx{
+    exclude 'androidx','com.google'
+}
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
